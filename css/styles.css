@@ -1,0 +1,52 @@
+.titulo {
+    max-width: fit-content;
+    margin: 50px auto;
+    margin-top: 90px;
+}
+
+.tienda {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    min-width: 250px;
+    max-width: 250px;
+    margin-bottom: 35px;
+}
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid royalblue;
+}
+
+.boton-eliminar {
+    background-color: white;
+    color: red;
+    border: none;
+    font-size: 20px;
+}
+
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+.precioProducto {
+    font-weight: 700;
+}
+
+.filtro {
+    display: none;
+}
